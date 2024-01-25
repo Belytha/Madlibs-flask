@@ -1,0 +1,26 @@
+body{ 
+    background-color: rgb(250, 222, 199);
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+}
+select{
+    width: 30%;
+}
+form, .container{
+    background-color: rgb(255, 240, 227);
+    margin: auto;
+    width: 50%;
+    border: solid black 3px;
+    border-radius: 5px;
+}
+.container{
+    padding: 5px 20px;
+}
+select, button, li{
+    display: block;
+    margin: 10px auto 10px auto;
+    font-size: 20px;
+
+}

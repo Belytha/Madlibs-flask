@@ -1,0 +1,14 @@
+{% extends "base.html"%}
+{% block title %}Choose Template{% endblock %}
+{% block content %}
+<h1> Choose your story</h1>
+<form action="/create">
+    <select name="story_index" id="chosen_story">
+        {% for story in stories_list %}
+        <option value = "{{stories_list.index(story)}}">{{story.title}}</option>
+        {% endfor %}
+        
+    </select>
+    <button type="submit">Submit</button>
+</form>
+{% endblock %}
